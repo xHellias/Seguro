@@ -31,6 +31,9 @@ public class Seguro {
         } else{
             asegurable = false;
         }
+        if(antiguedad==0){
+            asegurable = false;
+        }
         return asegurable;
     }
     
